@@ -1,0 +1,34 @@
+.container {
+    border-top:1px solid var(--border-color);
+}
+
+.container h3 {
+    font-size: var(--l);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 33px 25px ;
+    
+}
+
+.wrapper {
+    padding: 0 25px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.wrapper div {
+    margin-right: 50px;
+}
+
+.wrapper p {
+    font-size: var(--m);
+}
+
+.wrapper a {
+    display: inline-block;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}

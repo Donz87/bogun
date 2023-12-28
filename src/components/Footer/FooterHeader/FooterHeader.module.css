@@ -1,0 +1,27 @@
+
+.container {
+    padding-top: 30px;
+    border-top:1px solid var(--border-color);
+}
+
+.image_wrapper {
+    margin: 0 auto 20px;
+    width: 90%;
+  }
+  
+  .logo {
+    width: 100%;
+    display: block;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto 10px;
+    text-align: center;
+    font-size: var(--s);
+  }
+  
